@@ -1,0 +1,56 @@
+.portfolio-cabecalho{
+  background-color: var(--cor-fundo);
+  margin: 0px 20px;
+}
+
+.portfolio-titulo{
+  color:var(--cor-fonte);
+  background-color: var(--cor-fundo);
+  padding: 1px 35px;
+  border-radius: 8px;
+  margin: 0px;
+}
+
+.portfolio-corpo{
+  background-color: var(--cor-fundo);
+  margin: 15px;
+  border: none;
+}
+
+.portifolio-cartao{
+  margin-top: 1px;
+}
+
+.portfolio-cartao-corpo{
+  background-color: var(--fundo-alt);
+  color: var(--cor-fonte);
+}
+
+.portfolio-cartao-rodape{
+  background-color: var(--cor-fonte-destaque)
+}
+
+.portfolio-botao{
+  color: var(--cor-fonte);
+}
+
+.portfolio-ancora{
+  background-color: var(--cor-fundo);
+  border-color: var(--cor-fundo);
+  color: var(--cor-fonte);
+}
+
+hr{
+  color: var(--preto);
+  margin: 0;
+}
+
+.portfolio-botao:hover{
+  color: var(--preto);
+  border-color: var(--cor-fonte-destaque);
+}
+
+.portfolio-ancora:hover{
+  background-color: var(--preto);
+  border-color: var(--cor-fundo);
+}

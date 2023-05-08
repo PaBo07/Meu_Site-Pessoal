@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaBo Apresentação</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <nav class="navbar navbar-expand-lg bg-body-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Paulo Borges</a>
+        <a class="navbar-brand" href="https://github.com/PaBo07" target="_blank"><i class="bi bi-github logo-navbar"></i>PaBo07</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobremim">Sobre Mim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Meu Portfólio
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#datavizanalytics">Projetos DataViz Analytics</a></li>
+                <li><a class="dropdown-item" href="#webfrontend">Projetos Web Front-End</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="capa-contatos">
+    <div class="colecao-links-contatos">
+      <a class="navbar-brand links-contatos" href="https://linkedin.com/in/PaBo07" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a class="navbar-brand links-contatos" href="https://github.com/PaBo07" target="_blank"><i class="bi bi-github logo-navbar"></i></a>
+      <a class="navbar-brand links-contatos" href="https://web.whatsapp.com/send?phone=5511961704929" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      <a class="navbar-brand links-contatos" href="mailto:borgessilva54@gmail.com"?><i class="bi bi-envelope-at"></i></a>
+      <a class="navbar-brand links-contatos" href="https://drive.google.com/file/d/145u5m74f9KWQaAfV5NtWa8uvHGP1Xopf/view?usp=share_link" target="_blank"><i class="bi bi-file-earmark-arrow-down-fill logo"></i>Currículo.pdf</a>
+    </div>
+    <img src="assets/Capa-01.png" alt="Capa com nome completo do autor, profissão e tecnologias" width="100%">
+    <hr>
+  </section>
+
+  <section class="sobre-mim flex-lg-row align-items-center g-5 py-5" id="sobremim">
+    <img class="foto-perfil d-block mx-lg-auto img-fluid" src="assets/Pabo03.jpg" alt="Foto de Perfil de Paulo Borges">
+    <div class="texto-apresentacao">
+      <h3 class="boasvindas">Olá, seja muito bem vindo (a) ao meu portfólio!</h3>
+      <p class="lead">Sou graduado em Tecnologia Logística pela Anhembi Morumbi e estou cursando pós-graduação em Desenvolvimento Web Full Stack pela Faculdade Descomplica.<br>Possuo experiência em análise e visualização de dados, análise de sistemas WMS e SAP SD e análise de processos logísticos.</p>
+      <p class="lead">Aqui você terá acesso a alguns dos meus projetos de DataViz Analytics e Web Front-End!</p>
+    </div>
+  </section>
+
+  <section class="carrossel" id="datavizanalytics">
+    <h2 class="colecao-titulo">Projetos de DataViz Analytics</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container carrossel-corpo">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+              <div class="card-body card-corpo">
+                <h5 class="card-title">Nome de Projeto</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="card-footer footer-cartao">
+                  <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                  <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+  </section>
+
+  <section class="carrossel" id="webfrontend">
+    <h2 class="colecao-titulo">Projetos de Web Front-End</h2>
+    <!-- Slider main container -->
+    <div class="carrossel__container carrossel-corpo">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+              <div class="card-body card-corpo">
+                <h5 class="card-title">Nome de Projeto</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="card-footer footer-cartao">
+                  <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                  <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/ProjetoEmDesenvolvimento.png" class="card-img-top" alt="Thor">
+                <div class="card-body card-corpo">
+                  <h5 class="card-title">Nome de Projeto</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="card-footer footer-cartao">
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-kanban-fill logo-navbar"></i>Projeto</a>
+                    <a href="#" class="btn btn-success btn-cartao"><i class="bi bi-github logo-navbar"></i>Github</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="colecao-links-contatos-rodape">
+      <a class="navbar-brand links-contatos" href="https://linkedin.com/in/PaBo07" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a class="navbar-brand links-contatos" href="https://github.com/PaBo07" target="_blank"><i class="bi bi-github logo-navbar"></i></a>
+      <a class="navbar-brand links-contatos" href="https://web.whatsapp.com/send?phone=5511961704929" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      <a class="navbar-brand links-contatos" href="mailto:borgessilva54@gmail.com"?><i class="bi bi-envelope-at"></i></a>
+      <a class="navbar-brand links-contatos" href="https://drive.google.com/file/d/145u5m74f9KWQaAfV5NtWa8uvHGP1Xopf/view?usp=share_link" target="_blank"><i class="bi bi-file-earmark-arrow-down-fill logo"></i>Currículo.pdf</a>
+    </div>
+    <p class="rodape-texto">Desenvolvido por Paulo Borges</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      breakpoints: {
+        1200:{
+          slidesPerView: 3,
+        },
+        500:{
+          slidesPerView: 2,
+        }
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

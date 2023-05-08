@@ -1,0 +1,29 @@
+@import url("custom.css");
+@import url("indexhtml.css");
+
+:root{
+  --cor-fundo: #033114;
+  --cor-fonte: white;
+  --cor-fonte-destaque: #02B042;
+  --fonte: 'Quando', serif;
+  --preto: black;
+  --fundo-alt: #016325;
+}
+
+body{
+  background-color: var(--cor-fundo);
+  font-family: var(--fonte);
+  color: var(--cor-fonte);
+}
+
+.cor-destaque{
+  color: var(--cor-fonte-destaque);
+}
+
+.logo-navbar{
+  padding-right: 5px;
+}
+
+.logo{
+  padding-right: 4px;
+}
